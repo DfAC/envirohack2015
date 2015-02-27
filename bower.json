@@ -4,6 +4,7 @@
     "dependencies": {
       "jquery": "latest",
       "requirejs": "latest",
+      "requirejs-tpl": "latest",
       "backbone": "latest",
       "bootstrap": "latest"
     }
