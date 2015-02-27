@@ -1,0 +1,10 @@
+{
+  "name": "envirohack",
+  "version": "0.0.1",
+    "dependencies": {
+      "jquery": "latest",
+      "requirejs": "latest",
+      "backbone": "latest",
+      "bootstrap": "latest"
+    }
+}
