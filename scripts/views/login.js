@@ -1,12 +1,12 @@
-define(['backbone', 'd3', 'tpl!templates/main.tpl'], function (Backbone, d3, template) {
+define(['backbone', 'tpl!templates/login.tpl'], function (Backbone, template) {
   var App = Backbone.View.extend({
     template: template,
     initialize: function () {
-      console.log('views.main: initializing.');
+      console.log('views.login: initializing.');
       this.$el = $('#app-body');
     },
     render: function () {
-      console.log('views.main: rendering.');
+      console.log('views.login: rendering.');
       this.$el.html(this.template());
     }
   });

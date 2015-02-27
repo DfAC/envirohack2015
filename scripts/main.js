@@ -4,7 +4,8 @@ require.config({
     'backbone': 'libs/backbone/backbone',
     'underscore': 'libs/underscore/underscore',
     'bootstrap': 'libs/bootstrap/dist/js/bootstrap',
-    'tpl': 'libs/requirejs-tpl/tpl'
+    'tpl': 'libs/requirejs-tpl/tpl',
+    'd3': 'libs/d3/d3.js'
   },
   shims: {
     backbone: {depts:['jquery', 'underscore'], export: 'Backbone'}

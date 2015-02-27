@@ -6,6 +6,7 @@
       "requirejs": "latest",
       "requirejs-tpl": "latest",
       "backbone": "latest",
-      "bootstrap": "latest"
+      "bootstrap": "latest",
+      "d3": "latest"
     }
 }
