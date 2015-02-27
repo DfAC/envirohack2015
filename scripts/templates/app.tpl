@@ -19,3 +19,6 @@
     </div>
 </nav>
 <div id="app-body"></div>
+<footer class="footer">
+    <div class="col-md-3 col-center-block">Envirohack 2015</div>
+</footer>

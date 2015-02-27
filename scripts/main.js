@@ -5,10 +5,11 @@ require.config({
     'underscore': 'libs/underscore/underscore',
     'bootstrap': 'libs/bootstrap/dist/js/bootstrap',
     'tpl': 'libs/requirejs-tpl/tpl',
-    'd3': 'libs/d3/d3.js'
+    'd3': 'libs/d3/d3'
   },
   shims: {
-    backbone: {depts:['jquery', 'underscore'], export: 'Backbone'}
+    backbone: {depts:['jquery', 'underscore'], exports: 'Backbone'},
+    d3: {exports: 'd3'}
   }
 });
 

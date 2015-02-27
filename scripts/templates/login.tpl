@@ -15,8 +15,3 @@
         </div>
     </div>
 </div>
-<footer class="footer row">
-    <div class="col-md-4">Envirohack 2015</div>
-    <div class="col-md-4"></div>
-    <div class="col-md-4"></div>
-</footer>

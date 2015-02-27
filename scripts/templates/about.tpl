@@ -7,8 +7,3 @@
         <p>Aenean iaculis, diam quis ornare lacinia, ante nibh aliquam lorem, nec suscipit enim quam sed lacus. Nulla tristique enim convallis lobortis ultricies. Curabitur at felis id lorem pretium euismod nec non lectus. Sed a purus eleifend ante tempus mollis et ultricies turpis. Morbi imperdiet commodo rhoncus. Integer in aliquet enim. Nulla facilisi. Aenean vitae leo tincidunt, pellentesque mi vitae, efficitur ipsum. Donec sed ultricies massa, sit amet dictum est. Aenean nec diam metus. Nam erat arcu, pellentesque in leo id, aliquet vehicula diam. Integer pharetra sed turpis ac pretium. Aenean eros eros, ultrices sed feugiat non, efficitur vitae diam. Cras scelerisque fringilla ex, sit amet sagittis leo.</p>
     </div>
 </div>
-<footer class="footer row">
-    <div class="col-md-4">Envirohack 2015</div>
-    <div class="col-md-4"></div>
-    <div class="col-md-4"></div>
-</footer>
