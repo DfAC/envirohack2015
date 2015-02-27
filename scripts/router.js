@@ -1,4 +1,4 @@
-define(['jquery', 'bootstrap', 'views/app', 'models/app'], function ($, Bootstrap, AppView, AppModel) {
+define(['jquery', 'bootstrap', 'views/app', 'views/main', 'models/app'], function ($, Bootstrap, AppView, MainView, AppModel) {
 
   var Router = Backbone.Router.extend({
     initialize: function () {
@@ -9,12 +9,16 @@ define(['jquery', 'bootstrap', 'views/app', 'models/app'], function ($, Bootstra
 
       app.views = app.views || {};
       app.views.app = new AppView({model: app.models.app});
+      app.views.app.render();
     },
 
     routes: {
       '': function () {
         console.log('router: routed welcome page.');
-        app.views.app.render();
+        if (!app.views.main){
+          app.views.main = new MainView();
+        }
+        app.views.main.render();
       }
     }
 
