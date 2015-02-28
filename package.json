@@ -2,7 +2,7 @@
   "name": "Envirohack15",
   "version": "0.0.1",
   "description": "Envirohack 2015",
-  "main": "web.js",
+  "main": "server.js",
   "packages": {
     "bower": "latest",
     "harp": "*"
