@@ -1,8 +1,10 @@
-var express = require('express');
-var app = express();
+var express = require('express'),
+  app = express.createServer();
+
+app.use(express.logger());
 
 app.get('/', function(req, res){
-  res.send('hello world');
+  res.send('Hello World');
 });
 
-app.listen(8080);
+app.listen();
