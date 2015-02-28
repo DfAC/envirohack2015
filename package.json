@@ -5,10 +5,10 @@
   "main": "web.js",
   "packages": {
     "bower": "latest",
-    "express": "latest"
+    "harp": "*"
   },
   "engines": {
-    "node": "0.8.x",
+    "node": "0.10.x",
     "npm": "1.2.x"
   }
 }
