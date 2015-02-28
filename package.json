@@ -1,5 +1,6 @@
 {
   "packages": {
-    "bower": "latest"
+    "bower": "latest",
+    "express": "latest"
   }
 }

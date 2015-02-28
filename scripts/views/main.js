@@ -2,6 +2,7 @@ define(['backbone', 'd3', 'tpl!templates/main.tpl', 'views/graph', 'models/data'
   function (Backbone, d3, template, Graph, Data) {
   var App = Backbone.View.extend({
     template: template,
+
     initialize: function () {
       console.log('views.main: initializing.');
       this.$el = $('#app-body');

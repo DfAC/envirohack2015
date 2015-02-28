@@ -4,6 +4,10 @@
 logs
 *.log
 
+.idea/
+bower_components/
+scripts/libs/
+
 # Runtime data
 pids
 *.pid
