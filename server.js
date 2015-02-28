@@ -1,10 +1,6 @@
-var express = require('express'),
-  app = express.createServer();
+var express = require('express');
+var app = express();
 
-app.use(express.logger());
+app.use(express.static(__dirname + '/public'));
 
-app.get('/', function(req, res){
-  res.send('Hello World');
-});
-
-app.listen();
+app.listen(process.env.PORT || 8080);
