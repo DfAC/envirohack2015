@@ -4,7 +4,9 @@
   "description": "Envirohack 2015",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "./node_modules/bower/bin/bower install"
+
   },
   "dependencies": {
     "bower": "*",
